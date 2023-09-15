@@ -5,18 +5,16 @@
 #include <SPI.h>
 #include <SD.h>
 
-
-#define DHTPIN 2      // D2 on ESP32
+#define DHTPIN 2      // D2
 #define DHTTYPE DHT22
 #define BUZZER_PIN 8  // D8 
 const int CS = 5;    // D5
 
-
 const int mq135Pin = A2; 
-int baseline = 0; //MQ-135 Calibrated Value
+int baseline = 0; // Variable to store the baseline value for MQ-131
 const int mq131Pin = A0;
 int baselineMQ131 = 0; // Variable to store the baseline value for MQ-131
-const int calibrationTime = 30000; // Calibration time in milliseconds (e.g., 30 seconds)
+const int calibrationTime = 30000; // Calibration time in milliseconds
 
 MPU9250 mpu;
 Adafruit_BMP280 bmp;
@@ -49,11 +47,9 @@ void setup() {
     }
   }
 
-
   dht.begin();
   calibrateSensor(); // MQ-135 calibration
   calibrateMQ131();  // MQ-131 calibration
-  
 
   tone(BUZZER_PIN, 1000,1000);
  
@@ -68,7 +64,6 @@ void loop() {
   pressure_hPa = bmp.readPressure() / 100.0;  // Convert to hectopascals
   dht_temperature = dht.readTemperature();
   humidity = dht.readHumidity();
-
 
  // MQ-135 Readings
   int mq135Value = analogRead(mq135Pin);
@@ -139,7 +134,6 @@ void loop() {
     MQ131.close();
   }
   
-
   delay(50);  // Update all sensors 20 times a second
 }
 
@@ -149,13 +143,11 @@ void calibrateSensor() {
   long sum = 0;
   long startTime = millis();
 
-  // Read and sum up the sensor values during the calibration period
   while (millis() - startTime < calibrationTime) {
     sum += analogRead(mq135Pin);
     delay(10);
   }
 
-  // Calculate the average value to determine the baseline
   baseline = sum / (calibrationTime / 10);
   Serial.print("Calibration completed. Baseline value: ");
   Serial.println(baseline);
