@@ -78,21 +78,21 @@ void loop() {
   if (MPU) 
   {
     MPU.print(mpu.getAcc(0));
-    MPU.print(",");
+    MPU.print(" ");
     MPU.print(mpu.getAcc(1));
-    MPU.print(",");
+    MPU.print(" ");
     MPU.print(mpu.getAcc(2));
-    MPU.print(",");
+    MPU.print(" ");
     MPU.print(mpu.getGyro(0));
-    MPU.print(",");
+    MPU.print(" ");
     MPU.print(mpu.getGyro(1));
-    MPU.print(",");
+    MPU.print(" ");
     MPU.print(mpu.getGyro(2));
-    MPU.print(",");
+    MPU.print(" ");
     MPU.print(mpu.getMag(0));
-    MPU.print(",");
+    MPU.print(" ");
     MPU.print(mpu.getMag(1));
-    MPU.print(",");
+    MPU.print(" ");
     MPU.print(mpu.getMag(2));
     MPU.println();
     MPU.close();
@@ -103,7 +103,7 @@ void loop() {
   if (BMP) 
   {
     BMP.print(temperature);
-    BMP.print(",");
+    BMP.print(" ");
     BMP.print(pressure_hPa);
     BMP.println();
     BMP.close();

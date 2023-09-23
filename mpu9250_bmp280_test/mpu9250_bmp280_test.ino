@@ -58,5 +58,5 @@ void loop()
   Serial.println("======== BMP280 Readings ========");
   Serial.print("Temperature: "); Serial.println(temperature);
   Serial.print("Pressure: "); Serial.println(pressure_hPa);
-  delay(1000);
+  delay();
 }
