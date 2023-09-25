@@ -1,13 +1,17 @@
-# **Description**
+# **Supernova Surfers' PocketQube Exploration: Unraveling Earth's Mysteries from the Sky**
 
-Supernova Surfers' PocketQube is a meticulously designed satellite tailored for a rocket flight reaching altitudes of up to 9000m. Our primary objective is to capture a diverse range of data encompassing pressure, temperature, altitude, humidity, orientation, and location during the anticipated rocket flight. Post-flight, our team will delve deep into this data, aiming to extract valuable insights about the flight dynamics and the surrounding environment.
+Welcome to the official GitHub repository of the Supernova Surfers' PocketQube Project. Our team, comprising passionate space enthusiasts and skilled future engineers, has embarked on a groundbreaking journey to explore and understand the intricacies of our planet's atmosphere and its interactions with the cosmos.
+
+# **Project Overview:**
+Project Overview:
+The Supernova Surfers team has embarked on an ambitious journey to design and deploy a PocketQube, a miniaturized satellite that conforms to the standard dimensions of 5cm^3. This compact marvel is not just about size; it's a powerhouse packed with cutting-edge sensors and modules.
+As it journeys through the atmosphere, it's poised to capture a diverse range of data, from atmospheric pressure to magnetic field variations. The MPU 9250 module, a key component, plays a dual role in serving both our primary and secondary mission objectives. Our primary mission revolves around recording data such as barometric pressure, temperature, and acceleration on three axes. The secondary missions, derived from brainstorming sessions, are equally compelling. 
+They include advanced weather forecasting, tropospheric ozone monitoring, and a comprehensive analysis of Earth's magnetic field dynamics. The data collected will be stored on an SD card in ".txt" format, with a sampling rate of 20 Hz.
+Post-flight, our team will delve into data analysis, creating graphs and visual representations to extract meaningful insights.
+The ultimate goal? To contribute to the scientific community's understanding of atmospheric dynamics and magnetic interactions in space.
 
 # **Used Hardware:**
-Arduino Nano Every, GY-91 (BMP280 & MPU9250), DHT22, MQ131, MQ135, SD Card Module, and an onboard buzzer.
 
-Given the memory constraints associated with the Arduino Nano Every, coupled with our ambition to achieve rapid data recording rates (we've successfully achieved rates up to 20Hz), the flight-centric version of our program is laser-focused on recording data to the SD card in ".txt" format. It abstains from real-time data processing, allowing for comprehensive post-flight analysis. To ensure optimal performance during the flight, we've minimized debugging methods, retaining only essential indicators like the Nano's LED and specific EEPROM logs. However, specialized debugging versions, crafted to assist during the project's development phase, are available.
-
-For the post-flight data analysis, we'll leverage spreadsheet tools for their graphing capabilities, utilize frameworks like Matplotlib, and employ a unique Flight Replay feature. This feature enables our PocketQube to read and simulate data from the SD card as if it were real-time sensor data. To visualize this data and potentially simulate the flight in 3D, we're considering tools like Processing 3/4 or similar software, connecting directly to our device via USB.
 
 # **Functional Diagram:**
 Supernova Surfers' PocketQube Functional Diagram Image
