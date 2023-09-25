@@ -1,6 +1,6 @@
-# **Supernova Surfers' PocketQube Exploration: Unraveling Earth's Mysteries from the Sky**
+# **Supernova Surfers PocketQube: Unraveling Earth's Mysteries from the Sky**
 
-Welcome to the official GitHub repository of the Supernova Surfers' PocketQube Project. Our team, comprising passionate space enthusiasts and skilled future engineers, has embarked on a groundbreaking journey to explore and understand the intricacies of our planet's atmosphere and its interactions with the cosmos.
+Welcome to the official GitHub repository of the Supernova Surfers PocketQube Project. Our team, comprising passionate space enthusiasts and skilled future engineers, has embarked on a groundbreaking journey to explore and understand the intricacies of our planet's atmosphere and its interactions with the cosmos.
 
 # **Project Overview:**
 Project Overview:
