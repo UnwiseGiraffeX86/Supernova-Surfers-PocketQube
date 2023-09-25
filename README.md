@@ -1,4 +1,5 @@
 # **Supernova Surfers PocketQube: Unraveling Earth's Mysteries from the Sky**
+![BANNER](https://github.com/UnwiseGiraffeX86/Supernova-Surfers-PocketQube/assets/144488312/b1ffd091-4693-4f04-9c03-d7e61738f6f6)
 
 Welcome to the official GitHub repository of the Supernova Surfers PocketQube Project. Our team, comprising passionate space enthusiasts and skilled future engineers, has embarked on a groundbreaking journey to explore and understand the intricacies of our planet's atmosphere and its interactions with the cosmos.
 
