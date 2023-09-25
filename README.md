@@ -20,7 +20,7 @@ Houses the Arduino source code tailored for both flight and debugging. Additiona
 
 # **Schematic:** 
 Discover the intricate circuit schematic that powers our PocketQube.
-<img width="1754" alt="SCHEMA ELECTRONICA" src="https://github.com/UnwiseGiraffeX86/Supernova-Surfers-PocketQube/assets/144488312/d9d15a5d-915c-4fdc-914c-8378acfeec68">
+<img width="1754" alt="SCHEMA ELECTRONICA" src="SCHEMA ELECTRONICA.png">
 
 
 # **PCB:** 
