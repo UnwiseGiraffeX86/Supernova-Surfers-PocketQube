@@ -17,8 +17,12 @@ Supernova Surfers' PocketQube Functional Diagram Image
 # **Repository Structure:**
 This repository has the following folders:
 
-[Flight & Test Code](https://github.com/UnwiseGiraffeX86/Supernova-Surfers-PocketQube/tree/main/Flight%20%26%20Test%20Code) - includes the source code for the Arduino (both flight and debugging).
-[PCB's](https://github.com/UnwiseGiraffeX86/Supernova-Surfers-PocketQube/tree/main/PCB's) - includes the PCBs' Gerber files and the Electronic Schematic in .jpg format. The device has 3 stacked PCBs.
+* [Data Analysis Programs](https://github.com/UnwiseGiraffeX86/Supernova-Surfers-PocketQube/tree/main/Data%20Analysis%20Programs) - includes the weather radar and all the other programs for the analysis of the data logged by our PocketQube
+> The data analysis code has been copyrighted for legal purposes. Any stealing attempts will be sanctioned accordingly.
+> 
+* [Flight & Test Code](https://github.com/UnwiseGiraffeX86/Supernova-Surfers-PocketQube/tree/main/Flight%20%26%20Test%20Code) - includes the source code for the Arduino (both flight and debugging).
+
+* [PCB's](https://github.com/UnwiseGiraffeX86/Supernova-Surfers-PocketQube/tree/main/PCB's) - includes the PCBs' Gerber files and the Electronic Schematic in .jpg format. The device has 3 stacked PCBs.
 
 
 
