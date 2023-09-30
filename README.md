@@ -11,22 +11,14 @@ They include advanced weather forecasting, tropospheric ozone monitoring, and a 
 Post-flight, our team will delve into data analysis, creating graphs and visual representations to extract meaningful insights.
 The ultimate goal? To contribute to the scientific community's understanding of atmospheric dynamics and magnetic interactions in space.
 
-# **Used Hardware:**
-
-
 # **Functional Diagram:**
 Supernova Surfers' PocketQube Functional Diagram Image
 
 # **Repository Structure:**
-Dive into our repository, structured as follows:
+This repository has the following folders:
 
-# **Code:**
-Houses the Arduino source code tailored for both flight and debugging. Additionally, you'll find software for 3D visualizations, including Processing sketches.
-
-# **Schematic:** 
-Discover the intricate circuit schematic that powers our PocketQube.
-![Electronic Scheme](https://github.com/UnwiseGiraffeX86/Supernova-Surfers-PocketQube/blob/main/PCB's/SCHEMA%20ELECTRONICA.png)
+[Flight & Test Code](https://github.com/UnwiseGiraffeX86/Supernova-Surfers-PocketQube/tree/main/Flight%20%26%20Test%20Code) - includes the source code for the Arduino (both flight and debugging).
+[PCB's](https://github.com/UnwiseGiraffeX86/Supernova-Surfers-PocketQube/tree/main/PCB's) - includes the PCBs' Gerber files and the Electronic Schematic in .jpg format. The device has 3 stacked PCBs.
 
 
-# **PCB:** 
-Jump in and check out our PCB's, they have been crafted very meticulously. You can find the Gerber files here  
+
