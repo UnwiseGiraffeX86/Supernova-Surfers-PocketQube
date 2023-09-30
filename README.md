@@ -29,4 +29,4 @@ Discover the intricate circuit schematic that powers our PocketQube.
 
 
 # **PCB:** 
-Delve into the Gerber files for our custom-designed PCBs. Our PocketQube boasts 5 stacked PCBs, interconnected using wires.
+Jump in and check out our PCB's, they have been crafted very meticulously. You can find the Gerber files here  
