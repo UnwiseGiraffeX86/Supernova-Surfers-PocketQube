@@ -13,6 +13,7 @@ The ultimate goal? To contribute to the scientific community's understanding of 
 
 # **Functional Diagram:**
 Supernova Surfers' PocketQube Functional Diagram Image
+![Diagram](https://github.com/UnwiseGiraffeX86/Supernova-Surfers-PocketQube/blob/main/Functional%20Diagram.jpg)
 
 # **Repository Structure:**
 This repository has the following folders:
