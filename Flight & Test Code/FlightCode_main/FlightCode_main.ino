@@ -5,7 +5,7 @@
 #include <SPI.h>
 #include <SD.h>
 
-#define DHTPIN 2      // D2
+#define DHTPIN 2      //
 #define DHTTYPE DHT22
 #define BUZZER_PIN 8  // D8 
 const int CS = 5;    // D5

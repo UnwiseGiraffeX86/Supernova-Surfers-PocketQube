@@ -10,7 +10,7 @@ void setup()
 {
   Serial.begin(115200);
   Wire.begin();
-  delay(10000);
+  delay(1000);
 
   dht.begin();
 }
