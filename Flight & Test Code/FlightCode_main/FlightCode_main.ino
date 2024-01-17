@@ -14,7 +14,7 @@ const int mq135Pin = A2;
 int baseline = 0; // Variable to store the baseline value for MQ-131
 const int mq131Pin = A0;
 int baselineMQ131 = 0; // Variable to store the baseline value for MQ-131
-const int calibrationTime = 30000; // Calibration time in milliseconds
+const int calibrationTime = 3000; // Calibration time in milliseconds
 
 MPU9250 mpu;
 Adafruit_BMP280 bmp;
